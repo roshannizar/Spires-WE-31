@@ -4,7 +4,8 @@ import React, {Component} from 'react';
 import './styles.css';
 import MainContainer from './MainContainer';
 import SideNavigator from './SideNavigation';
-
+import SignIn from './SignIn';
+import {BrowserRouter as Router, Route, Link, Switch} from 'react-router-dom';
 export default class NavigationBar extends Component {
 
     constructor(props) {
@@ -12,11 +13,12 @@ export default class NavigationBar extends Component {
     }
 
     render() {
-        return <div>
+        return <Router>
+        <div>
             <div className="navi-bar">
                 <label className="heading">SPIRES</label>
                 <input className="search-bar" type="text" placeholder="Search Places, Hotels"/>
-                <label className="heading-one right" onClick={()=> {document.location.href="./SignIn.html";}}>SIGN IN</label>
+                <label className="heading-one right"><Link to="/SignIn" className="link">SIGN IN</Link></label>
                 <label className="heading-one right">EXPLORE</label>
                 <label className="heading-one right">CREATE POST</label>
                 <label className="points right">Points: 918C</label>
@@ -32,6 +34,10 @@ export default class NavigationBar extends Component {
             </div>
             <SideNavigator/>
             <MainContainer/>
-        </div>;
+            <Switch>
+                <Route path="/SignIn" component={SignIn}/>
+            </Switch>
+        </div>
+        </Router>;
     }
 }

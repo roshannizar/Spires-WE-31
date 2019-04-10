@@ -12,7 +12,7 @@ export default class SignIn extends Component {
 
     render() {
         return <div>
-            <div className="side-container">
+            <div className="side-container-main">
                  
             </div>
         </div>;
