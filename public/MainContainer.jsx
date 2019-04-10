@@ -12,7 +12,16 @@ export default class MainContainer extends Component {
     render() {
         return <div className="main">
             <div className="container">
+                <br/>
+                <div className="main-container-sub">
+                    <div className="">
 
+                    </div>
+                </div>
+                <br/>
+                <div className="main-container-sub">
+
+                </div>
             </div>
         </div>;
     }
