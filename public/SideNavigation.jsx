@@ -11,7 +11,7 @@ export default class SideNavigator extends Component {
 
     render() {
         return <div className="side-bar right">
-            
+            <button hidden className="button-one">POST ADVERTISEMENT</button>
         </div>;
     }
 }

@@ -1,6 +1,7 @@
 'use strict';
 
 import React, {Component} from 'react';
+import Container from './Container';
 import './styles.css';
 
 export default class MainContainer extends Component {
@@ -13,15 +14,7 @@ export default class MainContainer extends Component {
         return <div className="main">
             <div className="container">
                 <br/>
-                <div className="main-container-sub">
-                    <div className="">
-
-                    </div>
-                </div>
-                <br/>
-                <div className="main-container-sub">
-
-                </div>
+                <Container/>
             </div>
         </div>;
     }

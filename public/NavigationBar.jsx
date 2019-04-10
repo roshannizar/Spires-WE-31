@@ -18,11 +18,10 @@ export default class NavigationBar extends Component {
                 <label className="heading-one right">SIGN IN</label>
                 <label className="heading-one right">EXPLORE</label>
                 <label className="heading-one right">CREATE POST</label>
-                <label className="points right">Points: 918</label>
+                <label className="points right">Points: 918C</label>
             </div>
-            <label className="heading-two">News Feeds</label>
             <div className="sub-handler">
-                <label className="heading-two">News Feed</label>
+                <label className="heading-two">News Feeds</label>
                     <div className="sub-menu">
                         <a href="" className="link-style">CATEGORIES</a>
                         <a href="" className="link-style">TAGS</a>

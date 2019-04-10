@@ -25820,7 +25820,15 @@ var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
 module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"public/MainContainer.jsx":[function(require,module,exports) {
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"public/icons/person.png":[function(require,module,exports) {
+module.exports = "/person.53bab30d.png";
+},{}],"public/icons/driving.png":[function(require,module,exports) {
+module.exports = "/driving.60af9b03.png";
+},{}],"public/icons/car.png":[function(require,module,exports) {
+module.exports = "/car.052e85c8.png";
+},{}],"public/icons/itc.jpg":[function(require,module,exports) {
+module.exports = "/itc.b16eb36f.jpg";
+},{}],"public/Container.jsx":[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -25831,6 +25839,164 @@ exports.default = void 0;
 var _react = _interopRequireWildcard(require("react"));
 
 require("./styles.css");
+
+var _person = _interopRequireDefault(require("./icons/person.png"));
+
+var _driving = _interopRequireDefault(require("./icons/driving.png"));
+
+var _car = _interopRequireDefault(require("./icons/car.png"));
+
+var _itc = _interopRequireDefault(require("./icons/itc.jpg"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
+
+function _typeof(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof = function _typeof(obj) { return typeof obj; }; } else { _typeof = function _typeof(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof(obj); }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+function _possibleConstructorReturn(self, call) { if (call && (_typeof(call) === "object" || typeof call === "function")) { return call; } return _assertThisInitialized(self); }
+
+function _assertThisInitialized(self) { if (self === void 0) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return self; }
+
+function _getPrototypeOf(o) { _getPrototypeOf = Object.setPrototypeOf ? Object.getPrototypeOf : function _getPrototypeOf(o) { return o.__proto__ || Object.getPrototypeOf(o); }; return _getPrototypeOf(o); }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function"); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, writable: true, configurable: true } }); if (superClass) _setPrototypeOf(subClass, superClass); }
+
+function _setPrototypeOf(o, p) { _setPrototypeOf = Object.setPrototypeOf || function _setPrototypeOf(o, p) { o.__proto__ = p; return o; }; return _setPrototypeOf(o, p); }
+
+var Container =
+/*#__PURE__*/
+function (_Component) {
+  _inherits(Container, _Component);
+
+  function Container(props) {
+    _classCallCheck(this, Container);
+
+    return _possibleConstructorReturn(this, _getPrototypeOf(Container).call(this, props));
+  }
+
+  _createClass(Container, [{
+    key: "render",
+    value: function render() {
+      return _react.default.createElement("div", null, _react.default.createElement("div", {
+        className: "main-container-sub"
+      }, _react.default.createElement("div", {
+        className: "heading-three"
+      }, _react.default.createElement("img", {
+        src: _person.default,
+        className: "prof-pic left"
+      }), _react.default.createElement("label", {
+        className: "customer-name name-dark"
+      }, "John Smith"), _react.default.createElement("img", {
+        src: _car.default,
+        className: "prof-pic right"
+      }), _react.default.createElement("img", {
+        src: _driving.default,
+        className: "prof-pic right"
+      }), _react.default.createElement("label", {
+        className: "label-style-two right"
+      }, "Colombo, Sri-Lanka")), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("div", {
+        className: "sub-detail"
+      }, _react.default.createElement("label", {
+        className: "heading-description"
+      }, "Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity"), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("button", {
+        className: "button-two"
+      }, "GET OFFER"), _react.default.createElement("label", {
+        className: "posted right"
+      }, "Posted on: 2019/04/4")), _react.default.createElement("div", {
+        className: "detail"
+      }, _react.default.createElement("img", {
+        src: _itc.default,
+        className: "place-pick right"
+      }))), _react.default.createElement("br", null), _react.default.createElement("div", {
+        className: "main-container-sub"
+      }, _react.default.createElement("div", {
+        className: "heading-three"
+      }, _react.default.createElement("img", {
+        src: _person.default,
+        className: "prof-pic left"
+      }), _react.default.createElement("label", {
+        className: "customer-name name-dark"
+      }, "Tom Kernal"), _react.default.createElement("img", {
+        src: _car.default,
+        className: "prof-pic right"
+      }), _react.default.createElement("img", {
+        src: _driving.default,
+        className: "prof-pic right"
+      }), _react.default.createElement("label", {
+        className: "label-style-two right"
+      }, "Ella, Sri-Lanka")), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("div", {
+        className: "sub-detail"
+      }, _react.default.createElement("label", {
+        className: "heading-description"
+      }, "Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity"), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("button", {
+        className: "button-two"
+      }, "GET OFFER"), _react.default.createElement("label", {
+        className: "posted right"
+      }, "Posted on: 2019/03/31")), _react.default.createElement("div", {
+        className: "detail"
+      }, _react.default.createElement("img", {
+        src: _itc.default,
+        className: "place-pick right"
+      }))), _react.default.createElement("br", null), _react.default.createElement("div", {
+        className: "main-container-sub"
+      }, _react.default.createElement("div", {
+        className: "heading-three"
+      }, _react.default.createElement("img", {
+        src: _person.default,
+        className: "prof-pic left"
+      }), _react.default.createElement("label", {
+        className: "customer-name name-dark"
+      }, "Thomas Bond"), _react.default.createElement("img", {
+        src: _car.default,
+        className: "prof-pic right"
+      }), _react.default.createElement("img", {
+        src: _driving.default,
+        className: "prof-pic right"
+      }), _react.default.createElement("label", {
+        className: "label-style-two right"
+      }, "Jaffna, Sri-Lanka")), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("div", {
+        className: "sub-detail"
+      }, _react.default.createElement("label", {
+        className: "heading-description"
+      }, "Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity"), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("button", {
+        className: "button-two"
+      }, "GET OFFER"), _react.default.createElement("label", {
+        className: "posted right"
+      }, "Posted on: 2019/02/01")), _react.default.createElement("div", {
+        className: "detail"
+      }, _react.default.createElement("img", {
+        src: _itc.default,
+        className: "place-pick right"
+      }))), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null));
+    }
+  }]);
+
+  return Container;
+}(_react.Component);
+
+exports.default = Container;
+},{"react":"node_modules/react/index.js","./styles.css":"public/styles.css","./icons/person.png":"public/icons/person.png","./icons/driving.png":"public/icons/driving.png","./icons/car.png":"public/icons/car.png","./icons/itc.jpg":"public/icons/itc.jpg"}],"public/MainContainer.jsx":[function(require,module,exports) {
+'use strict';
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _Container = _interopRequireDefault(require("./Container"));
+
+require("./styles.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
@@ -25870,13 +26036,7 @@ function (_Component) {
         className: "main"
       }, _react.default.createElement("div", {
         className: "container"
-      }, _react.default.createElement("br", null), _react.default.createElement("div", {
-        className: "main-container-sub"
-      }, _react.default.createElement("div", {
-        className: ""
-      })), _react.default.createElement("br", null), _react.default.createElement("div", {
-        className: "main-container-sub"
-      })));
+      }, _react.default.createElement("br", null), _react.default.createElement(_Container.default, null)));
     }
   }]);
 
@@ -25884,7 +26044,7 @@ function (_Component) {
 }(_react.Component);
 
 exports.default = MainContainer;
-},{"react":"node_modules/react/index.js","./styles.css":"public/styles.css"}],"public/SideNavigation.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./Container":"public/Container.jsx","./styles.css":"public/styles.css"}],"public/SideNavigation.jsx":[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -25932,7 +26092,10 @@ function (_Component) {
     value: function render() {
       return _react.default.createElement("div", {
         className: "side-bar right"
-      });
+      }, _react.default.createElement("button", {
+        hidden: true,
+        className: "button-one"
+      }, "POST ADVERTISEMENT"));
     }
   }]);
 
@@ -26008,13 +26171,11 @@ function (_Component) {
         className: "heading-one right"
       }, "CREATE POST"), _react.default.createElement("label", {
         className: "points right"
-      }, "Points: 918")), _react.default.createElement("label", {
-        className: "heading-two"
-      }, "News Feeds"), _react.default.createElement("div", {
+      }, "Points: 918C")), _react.default.createElement("div", {
         className: "sub-handler"
       }, _react.default.createElement("label", {
         className: "heading-two"
-      }, "News Feed"), _react.default.createElement("div", {
+      }, "News Feeds"), _react.default.createElement("div", {
         className: "sub-menu"
       }, _react.default.createElement("a", {
         href: "",

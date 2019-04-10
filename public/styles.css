@@ -63,6 +63,7 @@
     right:0;
     top:0;
     z-index:-1;
+    text-align: center;
 }
 .main {
     position:absolute;
@@ -101,6 +102,7 @@
     margin-left:3.5%;
     font-family: 'Calibri';
     font-weight: bold;
+    width:100%;
 }
 .link-style {
     text-decoration: none;
@@ -108,6 +110,10 @@
     font-family: 'Calibri';
     margin-left:10%;
     color:black;
+    transition-duration: 0.5s;
+}
+.link-style:hover {
+    color:#654ea3;
 }
 .sub-handler {
     position: fixed;
@@ -123,7 +129,90 @@
     height: 400px;
     background-color: whitesmoke;
     margin-left:4.5%;
+    padding-bottom:100px;
     border-radius: 20px;
     box-sizing: border-box;
     box-shadow: 2px 2px 2px 2px rgb(238, 235, 235);
+    padding:10px;
+}
+.heading-three {
+    margin:1%;
+    font-family: 'Calibri';
+    font-size:20px;
+}
+.prof-pic {
+    width:5%;
+    cursor: pointer;
+}
+.customer-name {
+    float:left;
+    margin-left:10px;
+    margin-top:15px;
+}
+.slight-left {
+    margin-left:30px;
+}
+.label-style-two {
+    background-color: #44A08D;
+    color:whitesmoke;
+    padding:2px 6px 2px 6px;
+    border-radius: 20px;
+    margin-right:10px;
+    margin-left:10px;
+    margin-top:15px;
+    box-shadow: inset 0px 0px 0px 0px #093637;
+    font-family: 'Calibri';
+    font-size:15px;
+}
+.name-dark {
+    font-weight: bold;
+}
+.button-one {
+    margin-top:130%;
+    outline:none;
+    border:none;
+    border-radius: 20px;
+    color:whitesmoke;
+    font-size:12px;
+    background-color: #093637;
+    padding:5px;
+    width:70%;
+}
+.left {
+    float:left;
+}
+.detail {
+    float:right;
+    width:40%;
+    padding-bottom:50px;
+}
+
+.place-pick {
+    width:80%;
+    margin-right:20px;
+    margin-top:20px;
+    border-radius: 10px
+}
+.sub-detail {
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    width:55%;
+    padding-top:10px;
+}
+.heading-description {
+    font-family: 'Calibri';
+}
+.button-two {
+    outline:none;
+    border:none;
+    color:whitesmoke;
+    border-radius: 20px;
+    font-family: 'Calibri';
+    padding: 5px 10px 5px 10px;
+    width:30%;
+    background-color: #42275a;
+}
+.posted {
+    font-family: 'Calibri';
 }

@@ -3,14 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="1994b57f-2b4f-42ef-a1cd-c4f4bb9eb92c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.cache/37/39a21f3b545a6a9015f17681219f66.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/37/39a21f3b545a6a9015f17681219f66.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/67/61714b711056c0d9838cf542732fa8.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/67/61714b711056c0d9838cf542732fa8.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/77/5238b9d966ae3c7a02cc77e0730eea.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/77/5238b9d966ae3c7a02cc77e0730eea.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/db/8a059e307e23ad1d7b3fbeb20645d9.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/db/8a059e307e23ad1d7b3fbeb20645d9.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.65f60760.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.65f60760.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.65f60760.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.65f60760.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.65f60760.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.65f60760.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.65f60760.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.65f60760.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/Container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/Container.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/MainContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/MainContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/NavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/NavigationBar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/SideNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/SideNavigation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
