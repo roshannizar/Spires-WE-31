@@ -21,6 +21,7 @@ export default class Container extends Component {
                     <img src={Person} className="prof-pic left"/>
                     <label className="customer-name name-dark">John Smith</label>
                     <label className="points-label">Points: 189C</label>
+                    <label className="points-label-one">Hotal: ITC</label>
                     <img src={Car} className="prof-pic right"/>
                     <img src={Driving} className="prof-pic right"/>
                     <label className="label-style-two right">Colombo, Sri-Lanka</label>
@@ -43,6 +44,7 @@ export default class Container extends Component {
                     <img src={Person} className="prof-pic left"/>
                     <label className="customer-name name-dark">Tom Kernal</label>
                     <label className="points-label">Points: 905C</label>
+                    <label className="points-label-one">Hotal: Hilton</label>
                     <img src={Car} className="prof-pic right"/>
                     <img src={Driving} className="prof-pic right"/>
                     <label className="label-style-two right">Ella, Sri-Lanka</label>
@@ -65,6 +67,7 @@ export default class Container extends Component {
                     <img src={Person} className="prof-pic left"/>
                     <label className="customer-name name-dark">Thomas Bond</label>
                     <label className="points-label">Points: 959C</label>
+                    <label className="points-label-one">Hotal: kingsburry</label>
                     <img src={Car} className="prof-pic right"/>
                     <img src={Driving} className="prof-pic right"/>
                     <label className="label-style-two right">Jaffna, Sri-Lanka</label>

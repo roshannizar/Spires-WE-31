@@ -25903,7 +25903,9 @@ function (_Component) {
         className: "customer-name name-dark"
       }, "John Smith"), _react.default.createElement("label", {
         className: "points-label"
-      }, "Points: 189C"), _react.default.createElement("img", {
+      }, "Points: 189C"), _react.default.createElement("label", {
+        className: "points-label-one"
+      }, "Hotal: ITC"), _react.default.createElement("img", {
         src: _car.default,
         className: "prof-pic right"
       }), _react.default.createElement("img", {
@@ -25937,7 +25939,9 @@ function (_Component) {
         className: "customer-name name-dark"
       }, "Tom Kernal"), _react.default.createElement("label", {
         className: "points-label"
-      }, "Points: 905C"), _react.default.createElement("img", {
+      }, "Points: 905C"), _react.default.createElement("label", {
+        className: "points-label-one"
+      }, "Hotal: Hilton"), _react.default.createElement("img", {
         src: _car.default,
         className: "prof-pic right"
       }), _react.default.createElement("img", {
@@ -25971,7 +25975,9 @@ function (_Component) {
         className: "customer-name name-dark"
       }, "Thomas Bond"), _react.default.createElement("label", {
         className: "points-label"
-      }, "Points: 959C"), _react.default.createElement("img", {
+      }, "Points: 959C"), _react.default.createElement("label", {
+        className: "points-label-one"
+      }, "Hotal: kingsburry"), _react.default.createElement("img", {
         src: _car.default,
         className: "prof-pic right"
       }), _react.default.createElement("img", {

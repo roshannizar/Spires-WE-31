@@ -222,7 +222,7 @@
     border-radius: 20px;
     font-family: 'Calibri';
     padding: 5px 10px 5px 10px;
-    width:30%;
+    width:20%;
     margin-right:10px;
     background-color: #42275a;
     cursor: pointer;
@@ -234,7 +234,7 @@
     border-radius: 20px;
     font-family: 'Calibri';
     padding: 5px 10px 5px 10px;
-    width:30%;
+    width:20%;
     background-color: #141E30;
     cursor: pointer;
 }
@@ -260,6 +260,18 @@
     margin-top:15px;
     margin-left:20px;
     box-shadow: inset 0px 0px 0px 0px #06beb6;
+    font-family: 'Calibri';
+    float:left;
+    font-size:15px;
+}
+.points-label-one {
+    background-color: #2C7744;
+    color:whitesmoke;
+    padding:2px 6px 2px 6px;
+    border-radius: 5px;
+    margin-top:15px;
+    margin-left:20px;
+    box-shadow: inset 0px 0px 0px 0px #2C7744;
     font-family: 'Calibri';
     float:left;
     font-size:15px;
