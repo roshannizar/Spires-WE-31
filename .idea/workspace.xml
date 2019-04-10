@@ -3,17 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="1994b57f-2b4f-42ef-a1cd-c4f4bb9eb92c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.cache/37/39a21f3b545a6a9015f17681219f66.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/37/39a21f3b545a6a9015f17681219f66.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/67/61714b711056c0d9838cf542732fa8.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/67/61714b711056c0d9838cf542732fa8.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/76/ee015d686ef54dddfa06aae9d2baf0.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/76/ee015d686ef54dddfa06aae9d2baf0.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.cache/77/5238b9d966ae3c7a02cc77e0730eea.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/77/5238b9d966ae3c7a02cc77e0730eea.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.cache/db/8a059e307e23ad1d7b3fbeb20645d9.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/db/8a059e307e23ad1d7b3fbeb20645d9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.cache/d9/dda0b80cb8a4020c1d22cbac9bc4d4.json" beforeDir="false" afterPath="$PROJECT_DIR$/.cache/d9/dda0b80cb8a4020c1d22cbac9bc4d4.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.65f60760.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.65f60760.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.65f60760.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.65f60760.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.65f60760.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.65f60760.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.65f60760.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.65f60760.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/Container.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/Container.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/MainContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/MainContainer.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/NavigationBar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/NavigationBar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/SideNavigation.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/public/SideNavigation.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -60,8 +58,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/NavigationBar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+            <state relative-caret-position="384">
+              <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
               <folding>
                 <element signature="e#15#54#0" expanded="true" />
               </folding>
@@ -72,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state relative-caret-position="312">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -173,12 +171,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554868347250</updated>
-      <workItem from="1554868348419" duration="4488000" />
+      <workItem from="1554868348419" duration="5087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4488000" />
+    <option name="totallyTimeSpent" value="5087000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -259,8 +257,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/NavigationBar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
+        <state relative-caret-position="384">
+          <caret line="16" column="38" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
           <folding>
             <element signature="e#15#54#0" expanded="true" />
           </folding>
@@ -269,8 +267,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state relative-caret-position="312">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
         </state>
       </provider>
     </entry>

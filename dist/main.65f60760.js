@@ -25893,7 +25893,9 @@ function (_Component) {
         className: "prof-pic left"
       }), _react.default.createElement("label", {
         className: "customer-name name-dark"
-      }, "John Smith"), _react.default.createElement("img", {
+      }, "John Smith"), _react.default.createElement("label", {
+        className: "points-label"
+      }, "Points: 189"), _react.default.createElement("img", {
         src: _car.default,
         className: "prof-pic right"
       }), _react.default.createElement("img", {
@@ -25907,7 +25909,9 @@ function (_Component) {
         className: "heading-description"
       }, "Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity"), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("button", {
         className: "button-two"
-      }, "GET OFFER"), _react.default.createElement("label", {
+      }, "GET OFFER"), _react.default.createElement("button", {
+        className: "button-three"
+      }, "VIEW MORE"), _react.default.createElement("label", {
         className: "posted right"
       }, "Posted on: 2019/04/4")), _react.default.createElement("div", {
         className: "detail"
@@ -25923,7 +25927,9 @@ function (_Component) {
         className: "prof-pic left"
       }), _react.default.createElement("label", {
         className: "customer-name name-dark"
-      }, "Tom Kernal"), _react.default.createElement("img", {
+      }, "Tom Kernal"), _react.default.createElement("label", {
+        className: "points-label"
+      }, "Points: 905"), _react.default.createElement("img", {
         src: _car.default,
         className: "prof-pic right"
       }), _react.default.createElement("img", {
@@ -25937,7 +25943,9 @@ function (_Component) {
         className: "heading-description"
       }, "Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity"), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("button", {
         className: "button-two"
-      }, "GET OFFER"), _react.default.createElement("label", {
+      }, "GET OFFER"), _react.default.createElement("button", {
+        className: "button-three"
+      }, "VIEW MORE"), _react.default.createElement("label", {
         className: "posted right"
       }, "Posted on: 2019/03/31")), _react.default.createElement("div", {
         className: "detail"
@@ -25953,7 +25961,9 @@ function (_Component) {
         className: "prof-pic left"
       }), _react.default.createElement("label", {
         className: "customer-name name-dark"
-      }, "Thomas Bond"), _react.default.createElement("img", {
+      }, "Thomas Bond"), _react.default.createElement("label", {
+        className: "points-label"
+      }, "Points: 959"), _react.default.createElement("img", {
         src: _car.default,
         className: "prof-pic right"
       }), _react.default.createElement("img", {
@@ -25967,7 +25977,9 @@ function (_Component) {
         className: "heading-description"
       }, "Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity"), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("button", {
         className: "button-two"
-      }, "GET OFFER"), _react.default.createElement("label", {
+      }, "GET OFFER"), _react.default.createElement("button", {
+        className: "button-three"
+      }, "VIEW MORE"), _react.default.createElement("label", {
         className: "posted right"
       }, "Posted on: 2019/02/01")), _react.default.createElement("div", {
         className: "detail"
@@ -26162,9 +26174,12 @@ function (_Component) {
       }, "SPIRES"), _react.default.createElement("input", {
         className: "search-bar",
         type: "text",
-        placeholder: "Search Places"
+        placeholder: "Search Places, Hotels"
       }), _react.default.createElement("label", {
-        className: "heading-one right"
+        className: "heading-one right",
+        onClick: function onClick() {
+          document.location.href = "./SignIn.html";
+        }
       }, "SIGN IN"), _react.default.createElement("label", {
         className: "heading-one right"
       }, "EXPLORE"), _react.default.createElement("label", {
@@ -26237,7 +26252,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61747" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "60272" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

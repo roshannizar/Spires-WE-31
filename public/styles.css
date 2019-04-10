@@ -12,7 +12,7 @@
     font-size:25px;
     font-family: 'Calibri';
     font-weight: bold;
-    margin:3.5%;
+    margin:3.7%;
     color:whitesmoke;
 }
 .search-bar {
@@ -177,6 +177,7 @@
     background-color: #093637;
     padding:5px;
     width:70%;
+    cursor: pointer;
 }
 .left {
     float:left;
@@ -202,6 +203,7 @@
 }
 .heading-description {
     font-family: 'Calibri';
+    text-align: justify;
 }
 .button-two {
     outline:none;
@@ -211,8 +213,52 @@
     font-family: 'Calibri';
     padding: 5px 10px 5px 10px;
     width:30%;
+    margin-right:10px;
     background-color: #42275a;
+    cursor: pointer;
+}
+.button-three {
+    outline:none;
+    border:none;
+    color:whitesmoke;
+    border-radius: 20px;
+    font-family: 'Calibri';
+    padding: 5px 10px 5px 10px;
+    width:30%;
+    background-color: #141E30;
+    cursor: pointer;
+}
+.button-four {
+    outline:none;
+    border:none;
+    color:black;
+    border-radius: 20px;
+    font-family: 'Calibri';
+    padding: 5px 10px 5px 10px;
+    width:30%;
+    background-color: whitesmoke;
+    cursor: pointer;
 }
 .posted {
     font-family: 'Calibri';
+}
+.points-label {
+    background-color: #48b1bf;
+    color:whitesmoke;
+    padding:2px 6px 2px 6px;
+    border-radius: 20px;
+    margin-top:15px;
+    margin-left:20px;
+    box-shadow: inset 0px 0px 0px 0px #06beb6;
+    font-family: 'Calibri';
+    float:left;
+    font-size:15px;
+}
+.side-container {
+    position: fixed;
+    width:70%;
+    border-radius: 20px;
+    float:left;
+    margin-top:10%;
+    margin-left:5%;
 }

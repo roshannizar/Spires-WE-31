@@ -4,6 +4,7 @@ import React, {Component} from 'react';
 import './styles.css';
 import MainContainer from './MainContainer';
 import SideNavigator from './SideNavigation';
+
 export default class NavigationBar extends Component {
 
     constructor(props) {
@@ -14,8 +15,8 @@ export default class NavigationBar extends Component {
         return <div>
             <div className="navi-bar">
                 <label className="heading">SPIRES</label>
-                <input className="search-bar" type="text" placeholder="Search Places"/>
-                <label className="heading-one right">SIGN IN</label>
+                <input className="search-bar" type="text" placeholder="Search Places, Hotels"/>
+                <label className="heading-one right" onClick={()=> {document.location.href="./SignIn.html";}}>SIGN IN</label>
                 <label className="heading-one right">EXPLORE</label>
                 <label className="heading-one right">CREATE POST</label>
                 <label className="points right">Points: 918C</label>

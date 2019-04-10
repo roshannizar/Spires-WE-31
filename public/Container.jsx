@@ -18,6 +18,7 @@ export default class Container extends Component {
                 <div className="heading-three">
                     <img src={Person} className="prof-pic left"/>
                     <label className="customer-name name-dark">John Smith</label>
+                    <label className="points-label">Points: 189</label>
                     <img src={Car} className="prof-pic right"/>
                     <img src={Driving} className="prof-pic right"/>
                     <label className="label-style-two right">Colombo, Sri-Lanka</label>
@@ -27,6 +28,7 @@ export default class Container extends Component {
                     <label className="heading-description">Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity</label>
                     <br/><br/><br/><br/><br/>
                     <button className="button-two">GET OFFER</button>
+                    <button className="button-three">VIEW MORE</button>
                     <label className="posted right">Posted on: 2019/04/4</label>
                 </div>
                 <div className="detail">
@@ -38,6 +40,7 @@ export default class Container extends Component {
                <div className="heading-three">
                     <img src={Person} className="prof-pic left"/>
                     <label className="customer-name name-dark">Tom Kernal</label>
+                    <label className="points-label">Points: 905</label>
                     <img src={Car} className="prof-pic right"/>
                     <img src={Driving} className="prof-pic right"/>
                     <label className="label-style-two right">Ella, Sri-Lanka</label>
@@ -47,6 +50,7 @@ export default class Container extends Component {
                     <label className="heading-description">Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity</label>
                     <br/><br/><br/><br/><br/>
                     <button className="button-two">GET OFFER</button>
+                    <button className="button-three">VIEW MORE</button>
                     <label className="posted right">Posted on: 2019/03/31</label>
                 </div>
                 <div className="detail">
@@ -58,6 +62,7 @@ export default class Container extends Component {
                 <div className="heading-three">
                     <img src={Person} className="prof-pic left"/>
                     <label className="customer-name name-dark">Thomas Bond</label>
+                    <label className="points-label">Points: 959</label>
                     <img src={Car} className="prof-pic right"/>
                     <img src={Driving} className="prof-pic right"/>
                     <label className="label-style-two right">Jaffna, Sri-Lanka</label>
@@ -67,6 +72,7 @@ export default class Container extends Component {
                     <label className="heading-description">Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity Such as nice place to visit and able to purchase goods without any problems, all kind of faclities are available for liesure activity</label>
                     <br/><br/><br/><br/><br/>
                     <button className="button-two">GET OFFER</button>
+                    <button className="button-three">VIEW MORE</button>
                     <label className="posted right">Posted on: 2019/02/01</label>
                 </div>
                 <div className="detail">
