@@ -54,3 +54,20 @@
     background-color: whitesmoke;
     color:#654ea3;
 }
+.side-bar {
+    position: fixed;
+    background-color: whitesmoke;
+    box-shadow: 1px 1px 1px 1px whitesmoke;
+    width:18%;
+    height:100%;
+    right:0;
+    top:0;
+}
+.main {
+    position:fixed;
+    top:0;
+    left:0;
+}
+.container {
+    
+}

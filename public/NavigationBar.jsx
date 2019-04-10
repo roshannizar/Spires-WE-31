@@ -2,6 +2,8 @@
 
 import React, {Component} from 'react';
 import './styles.css';
+import SideNavigation from './SideNavigation';
+import MainContainer from './MainContainer';
 export default class NavigationBar extends Component {
 
     constructor(props) {
@@ -18,6 +20,8 @@ export default class NavigationBar extends Component {
                 <label className="heading-one right">CREATE POST</label>
                 <label className="points right">Points: 918</label>
             </div>
+            <SideNavigation/>
+            <MainContainer/>
         </div>;
     }
 }
