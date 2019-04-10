@@ -46,7 +46,7 @@
     background-color: #48b1bf;
     color:whitesmoke;
     padding:2px 6px 2px 6px;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top:1.4%;
     margin-right:40px;
     box-shadow: inset 0px 0px 0px 0px #06beb6;
@@ -166,7 +166,7 @@
     background-color: #44A08D;
     color:whitesmoke;
     padding:2px 6px 2px 6px;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-right:10px;
     margin-left:10px;
     margin-top:15px;
@@ -256,7 +256,7 @@
     background-color: #48b1bf;
     color:whitesmoke;
     padding:2px 6px 2px 6px;
-    border-radius: 20px;
+    border-radius: 5px;
     margin-top:15px;
     margin-left:20px;
     box-shadow: inset 0px 0px 0px 0px #06beb6;
