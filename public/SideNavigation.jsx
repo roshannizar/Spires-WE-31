@@ -1,6 +1,7 @@
 'use strict';
 
 import React, {Component} from 'react';
+import Pic from './icons/person.png';
 import './styles.css';
 
 export default class SideNavigator extends Component {
@@ -11,7 +12,13 @@ export default class SideNavigator extends Component {
 
     render() {
         return <div className="side-bar right">
-            <button className="button-one">POST ADVERTISEMENT</button>
+            <img src={Pic} className="side-bar-img"/>
+            <br/>
+            <label className="side-bar-label">John Smith</label><br/><br/>
+            <label className="bio-label">Travelling | Boost | Tourist</label><br/><br/>
+            <label className="badge-one blue">Followers: 1.5K</label>
+            <label className="badge-one silver">Membership: Silver</label><br/><br/>
+            <label className="badge-one salmon">Tags: 3</label>
         </div>;
     }
 }

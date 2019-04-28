@@ -26080,7 +26080,11 @@ exports.default = void 0;
 
 var _react = _interopRequireWildcard(require("react"));
 
+var _person = _interopRequireDefault(require("./icons/person.png"));
+
 require("./styles.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) { var desc = Object.defineProperty && Object.getOwnPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : {}; if (desc.get || desc.set) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } } newObj.default = obj; return newObj; } }
 
@@ -26118,9 +26122,20 @@ function (_Component) {
     value: function render() {
       return _react.default.createElement("div", {
         className: "side-bar right"
-      }, _react.default.createElement("button", {
-        className: "button-one"
-      }, "POST ADVERTISEMENT"));
+      }, _react.default.createElement("img", {
+        src: _person.default,
+        className: "side-bar-img"
+      }), _react.default.createElement("br", null), _react.default.createElement("label", {
+        className: "side-bar-label"
+      }, "John Smith"), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("label", {
+        className: "bio-label"
+      }, "Travelling | Boost | Tourist"), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("label", {
+        className: "badge-one blue"
+      }, "Followers: 1.5K"), _react.default.createElement("label", {
+        className: "badge-one silver"
+      }, "Membership: Silver"), _react.default.createElement("br", null), _react.default.createElement("br", null), _react.default.createElement("label", {
+        className: "badge-one salmon"
+      }, "Tags: 3"));
     }
   }]);
 
@@ -26128,7 +26143,7 @@ function (_Component) {
 }(_react.Component);
 
 exports.default = SideNavigator;
-},{"react":"node_modules/react/index.js","./styles.css":"public/styles.css"}],"public/SignIn.jsx":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","./icons/person.png":"public/icons/person.png","./styles.css":"public/styles.css"}],"public/SignIn.jsx":[function(require,module,exports) {
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -30258,13 +30273,19 @@ function (_Component) {
       }), _react.default.createElement("label", {
         className: "heading-one right"
       }, _react.default.createElement(_reactRouterDom.Link, {
-        to: "/SignIn",
+        to: "",
         className: "link"
       }, "SIGN IN")), _react.default.createElement("label", {
         className: "heading-one right"
-      }, "EXPLORE"), _react.default.createElement("label", {
+      }, _react.default.createElement(_reactRouterDom.Link, {
+        to: "",
+        className: "link"
+      }, "EXPLORE")), _react.default.createElement("label", {
         className: "heading-one right"
-      }, "CREATE POST"), _react.default.createElement("label", {
+      }, _react.default.createElement(_reactRouterDom.Link, {
+        to: "",
+        className: "link"
+      }, "CREATE POST")), _react.default.createElement("label", {
         className: "points right"
       }, "Points: 918C")), _react.default.createElement("div", {
         className: "sub-handler"
@@ -30335,7 +30356,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61112" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55610" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

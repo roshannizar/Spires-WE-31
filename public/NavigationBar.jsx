@@ -18,9 +18,9 @@ export default class NavigationBar extends Component {
             <div className="navi-bar">
                 <label className="heading">SPIRES</label>
                 <input className="search-bar" type="text" placeholder="Search Places, Hotels"/>
-                <label className="heading-one right"><Link to="/SignIn" className="link">SIGN IN</Link></label>
-                <label className="heading-one right">EXPLORE</label>
-                <label className="heading-one right">CREATE POST</label>
+                <label className="heading-one right"><Link to="" className="link">SIGN IN</Link></label>
+                <label className="heading-one right"><Link to="" className="link">EXPLORE</Link></label>
+                <label className="heading-one right"><Link to="" className="link">CREATE POST</Link></label>
                 <label className="points right">Points: 918C</label>
             </div>
             <div className="sub-handler">
